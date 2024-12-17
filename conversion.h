@@ -8,6 +8,6 @@ enum class ConversionType {
 };
 
 template <ConversionType type>
-double convert(const double& value, const std::string& from, const std::string& to);
+double convert(const double& value, std::string from, std::string to);
 
 #include "conversion.cpp"
