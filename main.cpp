@@ -1,6 +1,10 @@
 #include <iostream>
+#include "conversion.h"
+#include "menu.h"
 
 int main() {
-	std::cout << "hello" << std::endl;
+	while (true) {
+		menu();
+	}
 	return 0;
 }
