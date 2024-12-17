@@ -51,7 +51,7 @@ double convert(const double& value, std::string from, std::string to) {
 		else if (from == "k" && to == "f")
 			return value * 1.8 - 459.4;
 		else if (from == "f" && to == "k")
-			return (value - 32.0) / value / 1.8 + 255.2;
+			return value / 1.8 + 255.2;
 	}
 	else {
 		throw "bad ConversionType";
